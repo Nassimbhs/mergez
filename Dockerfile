@@ -11,7 +11,6 @@ WORKDIR /app
 COPY --from=builder /app/target/*.jar app.jar
 
 # Environment variable for port
-ENV PORT=8080
 EXPOSE 8080
 
 # Run your Spring Boot app

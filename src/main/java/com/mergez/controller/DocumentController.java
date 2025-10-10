@@ -1,15 +1,12 @@
 package com.mergez.controller;
 
 import java.util.List;
-
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.mergez.entity.Document;
+import com.mergez.entity.DocumentEsprit;
 import com.mergez.service.DocumentService;
-
 import lombok.RequiredArgsConstructor;
 
 @RestController
@@ -21,7 +18,7 @@ public class DocumentController {
     private final DocumentService service;
 
     @GetMapping
-    public List<Document> getAllDocuments() {
+    public List<DocumentEsprit> getAllDocuments() {
         return service.getAllDocuments();
     }
 

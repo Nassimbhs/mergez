@@ -1,6 +1,6 @@
 package com.mergez.entity;
 
-public enum DocumentType {
+public enum DocumentTypeEsprit {
     COURS,
     EXAMEN
 }

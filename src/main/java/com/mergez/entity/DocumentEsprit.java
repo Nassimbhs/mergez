@@ -12,7 +12,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Document {
+public class DocumentEsprit {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,5 +21,5 @@ public class Document {
     private String name;
     private String link;
     @Enumerated(EnumType.STRING)
-    private DocumentType type;
+    private DocumentTypeEsprit type;
 }
