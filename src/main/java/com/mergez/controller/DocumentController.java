@@ -1,7 +1,6 @@
 package com.mergez.controller;
 
 import java.util.List;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,7 +11,6 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @RequestMapping("/api/documents")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://naja7ni.netlify.app")
 public class DocumentController {
 
     private final DocumentService service;
