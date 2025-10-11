@@ -14,9 +14,10 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
-                        .allowedOrigins("http://localhost:4200", "https://naja7ni.netlify.app")
+                        .allowedOrigins("https://naje7.netlify.app")
                         .allowedMethods("GET");
             }
         };
     }
 }
+
