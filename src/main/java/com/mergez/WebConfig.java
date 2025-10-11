@@ -14,7 +14,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
-                        .allowedOrigins("https://naje7.netlify.app")
+                        .allowedOrigins("https://resplendent-gingersnap-34bc6c.netlify.app")
                         .allowedMethods("GET");
             }
         };
