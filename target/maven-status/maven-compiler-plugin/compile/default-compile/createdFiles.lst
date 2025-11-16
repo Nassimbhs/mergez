@@ -1,0 +1,8 @@
+com\mergez\entity\DocumentEsprit.class
+com\mergez\WebConfig$1.class
+com\mergez\WebConfig.class
+com\mergez\controller\DocumentController.class
+com\mergez\service\DocumentService.class
+com\mergez\MergezApplication.class
+com\mergez\entity\DocumentTypeEsprit.class
+com\mergez\repository\DocumentRepository.class
